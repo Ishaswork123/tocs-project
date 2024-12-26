@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         NODE_SERVER_IP = '13.49.77.34'  // Node.js server's IP
-        SSH_CREDENTIAL_ID = 'nodejs'     // Jenkins SSH Credential ID
+        SSH_CREDENTIAL_ID = 'apache'     // Jenkins SSH Credential ID
         DEPLOY_PATH = '/home/ubuntu/nodejs-app/'  // Deployment path on the server
         LOCAL_FILES = 'index.js views/home.ejs package.json' // Files to deploy
     }
